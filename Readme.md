@@ -14,6 +14,10 @@
 - **プロジェクトファイル・サンプルの追加**
     - `nuklear` フォルダに、OpenGL 1.1（GLFWを使わない）およびGDIのVisual Studio 2022用プロジェクトファイルを追加。
     - `vs6` フォルダに、Visual Studio 6.0用のOpenGL 1.1（GLFWを使わない）およびDirectX9のサンプルプロジェクトを追加。
+- **Apple/Mac/iOS/Android 対応の追加**
+    - `apple` フォルダ以下に、MacOS用OpenGL 1.1およびMetal、iOS用OpenGLESおよびMetalの対応を追加。
+    - `Android` フォルダに、Android用OpenGLES対応およびプロジェクトファイルを追加。
+    - タップイベント（タッチイベント）についても、AndroidおよびiOSでの動作に対応。
 - **その他**
     - ディレクトリ構成やサンプルの追加・整理など、ビルドや利用の利便性向上を目的とした変更を行っています。
 
@@ -41,6 +45,10 @@ This project is a fork of [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear
 - **Additional Project Files and Samples**
     - Added Visual Studio 2022 project files for OpenGL 1.1 (without GLFW) and GDI in the `nuklear` folder.
     - Added Visual Studio 6.0 sample projects for OpenGL 1.1 (without GLFW) and DirectX9 in the `vs6` folder.
+- **Apple/Mac/iOS/Android Support Added**
+    - Added support for OpenGL 1.1 and Metal on MacOS, and OpenGLES and Metal on iOS under the `apple` folder.
+    - Added support and project files for OpenGLES on Android under the `Android` folder.
+    - Tap (touch) event support for both Android and iOS platforms.
 - **Others**
     - Improved directory structure and added/organized samples to enhance build and usage convenience.
 
