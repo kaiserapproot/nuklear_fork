@@ -1,0 +1,15 @@
+demo/*/*.exe
+demo/*/*.obj
+demo/*/bin/*
+example/bin/*
+docs/xml
+docs/build
+docs/src
+*.tmp
+/nuklear/.vs
+/vs6/dx9
+x64
+*.plg
+*.opt
+*.ncb
+*.log
