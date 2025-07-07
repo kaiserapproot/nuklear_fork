@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- アプリケーション識別子 -->
+    <key>CFBundleIdentifier</key>
+    <string>com.example.nuklear-opengl-demo</string>
+    
+    <!-- アプリケーション名 -->
+    <key>CFBundleName</key>
+    <string>Nuklear OpenGL Demo</string>
+    
+    <!-- アプリケーション表示名 -->
+    <key>CFBundleDisplayName</key>
+    <string>Nuklear Demo</string>
+    
+    <!-- バージョン情報 -->
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    
+    <!-- アプリケーションアイコン -->
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    
+    <!-- 実行ファイル情報 -->
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    
+    <!-- パッケージタイプとシグネチャ -->
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    
+    <!-- サポートするプラットフォーム -->
+    <key>LSMinimumSystemVersion</key>
+    <string>10.12</string>
+    
+    <!-- アプリケーションカテゴリ -->
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.developer-tools</string>
+    
+    <!-- インフォメーション属性 -->
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2025. All rights reserved.</string>
+    
+    <!-- 必要なGPU性能 -->
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+    
+    <!-- 高DPI対応 -->
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    
+    <!-- メインnibファイル (使用しない場合) -->
+    <key>NSMainNibFile</key>
+    <string></string>
+    
+    <!-- プリンシパルクラス -->
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    
+    <!-- ダークモード対応 -->
+    <key>NSRequiresAquaSystemAppearance</key>
+    <false/>
+    
+    <!-- アプリケーションサンドボックス -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+</dict>
+</plist>
