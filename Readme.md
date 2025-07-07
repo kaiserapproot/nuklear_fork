@@ -25,3 +25,32 @@
 
 ---
 
+# Nuklear Fork Version
+
+This project is a fork of [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) with the following unique extensions and modifications.
+
+## Main Differences and Additions
+
+- **Visual Studio 6.0 (VC++6.0) Support**
+    - Added project files and build support for VC++6.0, which are not supported in the original Nuklear.
+- **Visual Studio 2022 Project Files**
+    - Added project files for building with the latest Visual Studio 2022.
+- **TCC (Tiny C Compiler) Support**
+    - Enabled building with TCC on Windows.
+    - Especially, added samples and build methods for DirectX and OpenGL environments that do not use glfw.
+- **Additional Project Files and Samples**
+    - Added Visual Studio 2022 project files for OpenGL 1.1 (without GLFW) and GDI in the `nuklear` folder.
+    - Added Visual Studio 6.0 sample projects for OpenGL 1.1 (without GLFW) and DirectX9 in the `vs6` folder.
+- **Others**
+    - Improved directory structure and added/organized samples to enhance build and usage convenience.
+
+## Compatibility with Original Nuklear
+
+- The basic API and features are compatible with the original Nuklear, but some build methods and sample structures differ due to the above additions and modifications.
+- This project is based on a relatively old version of Nuklear, so there may be some differences in specifications and implementation compared to the latest version.
+- For details, please refer to the Readme or project files in each directory.
+
+---
+
+The documentation will be updated as needed with more details and usage instructions.
+
